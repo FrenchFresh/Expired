@@ -7,10 +7,83 @@
     android:background="#E5D80E">
 
     <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="253dp"
+        android:layout_height="64dp"
+        android:backgroundTint="#00FFFFFF"
+        app:srcCompat="@drawable/google"
+        tools:layout_editor_absoluteX="79dp"
+        tools:layout_editor_absoluteY="568dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/signup"
+        tools:layout_editor_absoluteX="92dp"
+        tools:layout_editor_absoluteY="455dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_bold"
+        android:text="OR"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="196dp"
+        tools:layout_editor_absoluteY="526dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Password :"
+        android:inputType="textPassword"
+        android:textColorHint="#000000"
+        tools:fontFamily="@font/roboto_bold"
+        tools:layout_editor_absoluteX="105dp"
+        tools:layout_editor_absoluteY="383dp" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Email :"
+        android:inputType="textEmailAddress"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        tools:fontFamily="@font/roboto_bold"
+        tools:layout_editor_absoluteX="106dp"
+        tools:layout_editor_absoluteY="321dp" />
+
+    <ImageButton
         android:id="@+id/imageButton5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:backgroundTint="#00FFFFFF"
         app:srcCompat="@drawable/arrowback"
-        tools:layout_editor_absoluteX="28dp"
-        tools:layout_editor_absoluteY="30dp" />
+        tools:layout_editor_absoluteX="44dp"
+        tools:layout_editor_absoluteY="33dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="107dp"
+        android:layout_height="34dp"
+        android:text="Register"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        tools:fontFamily="@font/roboto_bold"
+        tools:layout_editor_absoluteX="118dp"
+        tools:layout_editor_absoluteY="49dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/logo"
+        tools:layout_editor_absoluteX="105dp"
+        tools:layout_editor_absoluteY="102dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
