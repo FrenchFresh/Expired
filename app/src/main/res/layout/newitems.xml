@@ -24,7 +24,7 @@
         android:layout_height="652dp"
         app:srcCompat="@drawable/rectangle"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="79dp" />
+        tools:layout_editor_absoluteY="76dp" />
 
     <ImageView
         android:id="@+id/imageView28"
