@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E5D80E">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:fontFamily="@font/robotobold"
+        android:text="Hi “Name”,"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="46dp"
+        tools:layout_editor_absoluteY="54dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/robotobold"
+        android:text="Welcome Back"
+        android:textColor="#040404"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="46dp"
+        tools:layout_editor_absoluteY="86dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#00FFFFFF"
+        app:srcCompat="@drawable/setting"
+        tools:layout_editor_absoluteX="322dp"
+        tools:layout_editor_absoluteY="54dp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="411dp"
+        android:layout_height="448dp"
+        android:background="@drawable/rectangle"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="195dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="324dp"
+        android:layout_height="62dp"
+        android:background="@android:color/white"
+        tools:layout_constraintCircleRadius="35"
+        tools:layout_editor_absoluteX="46dp"
+        tools:layout_editor_absoluteY="253dp" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="324dp"
+        android:layout_height="62dp"
+        android:background="@android:color/white"
+        tools:layout_constraintCircleRadius="35"
+        tools:layout_editor_absoluteX="46dp"
+        tools:layout_editor_absoluteY="325dp" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="324dp"
+        android:layout_height="62dp"
+        android:background="@android:color/white"
+        tools:layout_constraintCircleRadius="35"
+        tools:layout_editor_absoluteX="46dp"
+        tools:layout_editor_absoluteY="397dp" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="324dp"
+        android:layout_height="62dp"
+        android:background="@android:color/white"
+        tools:layout_constraintCircleRadius="35"
+        tools:layout_editor_absoluteX="46dp"
+        tools:layout_editor_absoluteY="464dp" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="324dp"
+        android:layout_height="62dp"
+        android:background="@android:color/white"
+        tools:layout_constraintCircleRadius="35"
+        tools:layout_editor_absoluteX="46dp"
+        tools:layout_editor_absoluteY="537dp" />
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="411dp"
+        android:layout_height="68dp"
+        android:background="#00FF19"
+        tools:layout_constraintCircleRadius="35"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="666dp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/robotobold"
+        android:text="dd-mm-yyyy"
+        android:textColor="#FF0000"
+        tools:layout_editor_absoluteX="266dp"
+        tools:layout_editor_absoluteY="284dp" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/robotobold"
+        android:text="dd-mm-yyyy"
+        android:textColor="#FF0000"
+        tools:layout_editor_absoluteX="266dp"
+        tools:layout_editor_absoluteY="357dp" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/robotobold"
+        android:text="dd-mm-yyyy"
+        android:textColor="#FF0000"
+        tools:layout_editor_absoluteX="266dp"
+        tools:layout_editor_absoluteY="431dp" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/robotobold"
+        android:text="dd-mm-yyyy"
+        android:textColor="#FF0000"
+        tools:layout_editor_absoluteX="266dp"
+        tools:layout_editor_absoluteY="496dp" />
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/robotobold"
+        android:text="dd-mm-yyyy"
+        android:textColor="#FF0000"
+        tools:layout_editor_absoluteX="266dp"
+        tools:layout_editor_absoluteY="563dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="61dp"
+        android:layout_height="55dp"
+        app:srcCompat="@drawable/ellipse"
+        tools:layout_editor_absoluteX="46dp"
+        tools:layout_editor_absoluteY="257dp" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="61dp"
+        android:layout_height="55dp"
+        app:srcCompat="@drawable/ellipse"
+        tools:layout_editor_absoluteX="46dp"
+        tools:layout_editor_absoluteY="332dp" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="61dp"
+        android:layout_height="55dp"
+        app:srcCompat="@drawable/ellipse"
+        tools:layout_editor_absoluteX="46dp"
+        tools:layout_editor_absoluteY="404dp" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="61dp"
+        android:layout_height="55dp"
+        app:srcCompat="@drawable/ellipse"
+        tools:layout_editor_absoluteX="46dp"
+        tools:layout_editor_absoluteY="471dp" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="61dp"
+        android:layout_height="55dp"
+        app:srcCompat="@drawable/ellipse"
+        tools:layout_editor_absoluteX="46dp"
+        tools:layout_editor_absoluteY="544dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/robotobold"
+        android:text="Food Name"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="118dp"
+        tools:layout_editor_absoluteY="266dp" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/robotobold"
+        android:text="Food Name"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="116dp"
+        tools:layout_editor_absoluteY="338dp" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/robotobold"
+        android:text="Food Name"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="116dp"
+        tools:layout_editor_absoluteY="415dp" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/robotobold"
+        android:text="Food Name"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="116dp"
+        tools:layout_editor_absoluteY="480dp" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/robotobold"
+        android:text="Food Name"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="116dp"
+        tools:layout_editor_absoluteY="547dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/robotobold"
+        android:text="Qty : _____ Pcs"
+        android:textColor="#040303"
+        android:textSize="12sp"
+        tools:layout_editor_absoluteX="118dp"
+        tools:layout_editor_absoluteY="287dp" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/robotobold"
+        android:text="Qty : _____ Pcs"
+        android:textColor="#040303"
+        android:textSize="12sp"
+        tools:layout_editor_absoluteX="116dp"
+        tools:layout_editor_absoluteY="357dp" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/robotobold"
+        android:text="Qty : _____ Pcs"
+        android:textColor="#040303"
+        android:textSize="12sp"
+        tools:layout_editor_absoluteX="118dp"
+        tools:layout_editor_absoluteY="434dp" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/robotobold"
+        android:text="Qty : _____ Pcs"
+        android:textColor="#040303"
+        android:textSize="12sp"
+        tools:layout_editor_absoluteX="116dp"
+        tools:layout_editor_absoluteY="499dp" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/robotobold"
+        android:text="Qty : _____ Pcs"
+        android:textColor="#040303"
+        android:textSize="12sp"
+        tools:layout_editor_absoluteX="116dp"
+        tools:layout_editor_absoluteY="566dp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/robotobold"
+        android:text="Expired :"
+        android:textColor="#040303"
+        android:textSize="12sp"
+        tools:layout_editor_absoluteX="267dp"
+        tools:layout_editor_absoluteY="266dp" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/robotobold"
+        android:text="Expired :"
+        android:textColor="#040303"
+        android:textSize="12sp"
+        tools:layout_editor_absoluteX="267dp"
+        tools:layout_editor_absoluteY="342dp" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/robotobold"
+        android:text="Expired :"
+        android:textColor="#040303"
+        android:textSize="12sp"
+        tools:layout_editor_absoluteX="266dp"
+        tools:layout_editor_absoluteY="415dp" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/robotobold"
+        android:text="Expired :"
+        android:textColor="#040303"
+        android:textSize="12sp"
+        tools:layout_editor_absoluteX="266dp"
+        tools:layout_editor_absoluteY="480dp" />
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/robotobold"
+        android:text="Expired :"
+        android:textColor="#040303"
+        android:textSize="12sp"
+        tools:layout_editor_absoluteX="266dp"
+        tools:layout_editor_absoluteY="547dp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="31dp"
+        android:layout_height="27dp"
+        app:srcCompat="@drawable/camera"
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="266dp" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="31dp"
+        android:layout_height="27dp"
+        app:srcCompat="@drawable/camera"
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="342dp" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="31dp"
+        android:layout_height="27dp"
+        app:srcCompat="@drawable/camera"
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="415dp" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="31dp"
+        android:layout_height="27dp"
+        app:srcCompat="@drawable/camera"
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="480dp" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="31dp"
+        android:layout_height="27dp"
+        app:srcCompat="@drawable/camera"
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="555dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/robotobold"
+        android:text="Expired Soon"
+        android:textColor="#FF0000"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="46dp"
+        tools:layout_editor_absoluteY="210dp" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="47dp"
+        android:layout_height="33dp"
+        app:srcCompat="@drawable/homes"
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="673dp" />
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="47dp"
+        android:layout_height="19dp"
+        android:fontFamily="@font/robotobold"
+        android:text="Home"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="706dp" />
+
+    <TextView
+        android:id="@+id/textView38"
+        android:layout_width="38dp"
+        android:layout_height="18dp"
+        android:fontFamily="@font/robotobold"
+        android:text="List"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="308dp"
+        tools:layout_editor_absoluteY="703dp" />
+
+    <TextView
+        android:id="@+id/textView37"
+        android:layout_width="83dp"
+        android:layout_height="17dp"
+        android:fontFamily="@font/robotobold"
+        android:text="Add Items"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="165dp"
+        tools:layout_editor_absoluteY="706dp" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="45dp"
+        android:layout_height="33dp"
+        app:srcCompat="@drawable/add"
+        tools:layout_editor_absoluteX="183dp"
+        tools:layout_editor_absoluteY="673dp" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/list"
+        tools:layout_editor_absoluteX="313dp"
+        tools:layout_editor_absoluteY="673dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
