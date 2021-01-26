@@ -16,7 +16,7 @@
 
     <ImageView
         android:id="@+id/imageView64"
-        android:layout_width="131dp"
+        android:layout_width="144dp"
         android:layout_height="32dp"
         app:srcCompat="@drawable/fill"
         tools:layout_editor_absoluteX="142dp"
@@ -66,7 +66,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/dd"
-        tools:layout_editor_absoluteX="66dp"
+        tools:layout_editor_absoluteX="63dp"
         tools:layout_editor_absoluteY="464dp" />
 
     <ImageView
@@ -91,7 +91,7 @@
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/mm"
         tools:layout_editor_absoluteX="190dp"
-        tools:layout_editor_absoluteY="469dp" />
+        tools:layout_editor_absoluteY="465dp" />
 
     <ImageView
         android:id="@+id/imageView61"
@@ -106,7 +106,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/r1"
-        tools:layout_editor_absoluteX="313dp"
+        tools:layout_editor_absoluteX="311dp"
         tools:layout_editor_absoluteY="444dp" />
 
     <ImageView
@@ -114,8 +114,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/yy"
-        tools:layout_editor_absoluteX="333dp"
-        tools:layout_editor_absoluteY="465dp" />
+        tools:layout_editor_absoluteX="324dp"
+        tools:layout_editor_absoluteY="464dp" />
 
     <TextView
         android:id="@+id/textView55"
