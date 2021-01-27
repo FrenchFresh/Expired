@@ -24,7 +24,7 @@
         android:layout_height="652dp"
         app:srcCompat="@drawable/rectangle"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="79dp" />
+        tools:layout_editor_absoluteY="76dp" />
 
     <ImageView
         android:id="@+id/imageView28"
@@ -83,8 +83,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/robotobold"
-        android:text="Input Food Name"
-        android:textColor="#51000000"
+        android:text="Chitato"
+        android:textColor="#000000"
         android:textSize="18sp"
         tools:layout_editor_absoluteX="40dp"
         tools:layout_editor_absoluteY="138dp" />
@@ -94,8 +94,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/robotobold"
-        android:text="Leave your comments"
-        android:textColor="#51000000"
+        android:text="BBQ"
+        android:textColor="#000000"
         android:textSize="18sp"
         tools:layout_editor_absoluteX="40dp"
         tools:layout_editor_absoluteY="596dp" />
@@ -123,14 +123,6 @@
         app:srcCompat="@drawable/r1"
         tools:layout_editor_absoluteX="40dp"
         tools:layout_editor_absoluteY="248dp" />
-
-    <ImageView
-        android:id="@+id/imageView31"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/dd"
-        tools:layout_editor_absoluteX="55dp"
-        tools:layout_editor_absoluteY="267dp" />
 
     <ImageView
         android:id="@+id/imageView32"
@@ -161,32 +153,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/lines"
-        tools:layout_editor_absoluteX="255dp"
-        tools:layout_editor_absoluteY="274dp" />
-
-    <ImageView
-        android:id="@+id/imageView37"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/mm"
-        tools:layout_editor_absoluteX="190dp"
-        tools:layout_editor_absoluteY="272dp" />
-
-    <ImageView
-        android:id="@+id/imageView38"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/yy"
-        tools:layout_editor_absoluteX="335dp"
-        tools:layout_editor_absoluteY="268dp" />
-
-    <ImageView
-        android:id="@+id/imageView39"
-        android:layout_width="131dp"
-        android:layout_height="32dp"
-        app:srcCompat="@drawable/fill"
-        tools:layout_editor_absoluteX="75dp"
-        tools:layout_editor_absoluteY="372dp" />
+        tools:layout_editor_absoluteX="253dp"
+        tools:layout_editor_absoluteY="273dp" />
 
     <ImageView
         android:id="@+id/imageView40"
@@ -201,16 +169,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/plus"
-        tools:layout_editor_absoluteX="220dp"
+        tools:layout_editor_absoluteX="218dp"
         tools:layout_editor_absoluteY="379dp" />
-
-    <ImageView
-        android:id="@+id/imageView42"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/pcs"
-        tools:layout_editor_absoluteX="288dp"
-        tools:layout_editor_absoluteY="372dp" />
 
     <ImageView
         android:id="@+id/imageView43"
@@ -227,5 +187,68 @@
         app:srcCompat="@drawable/save"
         tools:layout_editor_absoluteX="90dp"
         tools:layout_editor_absoluteY="658dp" />
+
+    <TextView
+        android:id="@+id/textView48"
+        android:layout_width="36dp"
+        android:layout_height="25dp"
+        android:fontFamily="@font/robotobold"
+        android:text="21"
+        android:textAlignment="center"
+        android:textColor="#48000000"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="46dp"
+        tools:layout_editor_absoluteY="260dp" />
+
+    <TextView
+        android:id="@+id/textView52"
+        android:layout_width="36dp"
+        android:layout_height="25dp"
+        android:fontFamily="@font/robotobold"
+        android:text="04"
+        android:textAlignment="center"
+        android:textColor="#48000000"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="187dp"
+        tools:layout_editor_absoluteY="260dp" />
+
+    <TextView
+        android:id="@+id/textView53"
+        android:layout_width="36dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="44dp"
+        android:fontFamily="@font/robotobold"
+        android:text="21"
+        android:textAlignment="center"
+        android:textColor="#48000000"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/imageView36"
+        tools:layout_editor_absoluteY="260dp" />
+
+    <ImageView
+        android:id="@+id/imageView34"
+        android:layout_width="113dp"
+        android:layout_height="31dp"
+        app:srcCompat="@drawable/label"
+        tools:layout_editor_absoluteX="82dp"
+        tools:layout_editor_absoluteY="372dp" />
+
+    <TextView
+        android:id="@+id/textView55"
+        android:layout_width="25dp"
+        android:layout_height="28dp"
+        android:text="2"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="124dp"
+        tools:layout_editor_absoluteY="375dp" />
+
+    <ImageView
+        android:id="@+id/imageView31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/pcs"
+        tools:layout_editor_absoluteX="262dp"
+        tools:layout_editor_absoluteY="372dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

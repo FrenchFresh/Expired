@@ -43,52 +43,47 @@
         android:layout_height="448dp"
         android:background="@drawable/rectangle"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="195dp" />
+        tools:layout_editor_absoluteY="193dp" />
 
-    <TextView
-        android:id="@+id/textView8"
-        android:layout_width="324dp"
-        android:layout_height="62dp"
-        android:background="@android:color/white"
-        tools:layout_constraintCircleRadius="35"
-        tools:layout_editor_absoluteX="46dp"
-        tools:layout_editor_absoluteY="253dp" />
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="306dp"
+        android:layout_height="65dp"
+        app:srcCompat="@drawable/r"
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="260dp" />
 
-    <TextView
-        android:id="@+id/textView15"
-        android:layout_width="324dp"
-        android:layout_height="62dp"
-        android:background="@android:color/white"
-        tools:layout_constraintCircleRadius="35"
-        tools:layout_editor_absoluteX="46dp"
-        tools:layout_editor_absoluteY="325dp" />
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="306dp"
+        android:layout_height="65dp"
+        app:srcCompat="@drawable/r"
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="332dp" />
 
-    <TextView
-        android:id="@+id/textView20"
-        android:layout_width="324dp"
-        android:layout_height="62dp"
-        android:background="@android:color/white"
-        tools:layout_constraintCircleRadius="35"
-        tools:layout_editor_absoluteX="46dp"
-        tools:layout_editor_absoluteY="397dp" />
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="304dp"
+        android:layout_height="59dp"
+        app:srcCompat="@drawable/r"
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="544dp" />
 
-    <TextView
-        android:id="@+id/textView25"
-        android:layout_width="324dp"
-        android:layout_height="62dp"
-        android:background="@android:color/white"
-        tools:layout_constraintCircleRadius="35"
-        tools:layout_editor_absoluteX="46dp"
-        tools:layout_editor_absoluteY="464dp" />
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="306dp"
+        android:layout_height="65dp"
+        app:srcCompat="@drawable/r"
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="471dp" />
 
-    <TextView
-        android:id="@+id/textView30"
-        android:layout_width="324dp"
-        android:layout_height="62dp"
-        android:background="@android:color/white"
-        tools:layout_constraintCircleRadius="35"
-        tools:layout_editor_absoluteX="46dp"
-        tools:layout_editor_absoluteY="537dp" />
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="306dp"
+        android:layout_height="65dp"
+        app:srcCompat="@drawable/r"
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="406dp" />
 
     <TextView
         android:id="@+id/textView35"
@@ -104,7 +99,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/robotobold"
-        android:text="dd-mm-yyyy"
+        android:text="21-04-2021"
         android:textColor="#FF0000"
         tools:layout_editor_absoluteX="266dp"
         tools:layout_editor_absoluteY="284dp" />
@@ -114,7 +109,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/robotobold"
-        android:text="dd-mm-yyyy"
+        android:text="04-05-2021"
         android:textColor="#FF0000"
         tools:layout_editor_absoluteX="266dp"
         tools:layout_editor_absoluteY="357dp" />
@@ -124,7 +119,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/robotobold"
-        android:text="dd-mm-yyyy"
+        android:text="12-07-2021"
         android:textColor="#FF0000"
         tools:layout_editor_absoluteX="266dp"
         tools:layout_editor_absoluteY="431dp" />
@@ -149,52 +144,12 @@
         tools:layout_editor_absoluteX="266dp"
         tools:layout_editor_absoluteY="563dp" />
 
-    <ImageView
-        android:id="@+id/imageView5"
-        android:layout_width="61dp"
-        android:layout_height="55dp"
-        app:srcCompat="@drawable/ellipse"
-        tools:layout_editor_absoluteX="46dp"
-        tools:layout_editor_absoluteY="257dp" />
-
-    <ImageView
-        android:id="@+id/imageView7"
-        android:layout_width="61dp"
-        android:layout_height="55dp"
-        app:srcCompat="@drawable/ellipse"
-        tools:layout_editor_absoluteX="46dp"
-        tools:layout_editor_absoluteY="332dp" />
-
-    <ImageView
-        android:id="@+id/imageView9"
-        android:layout_width="61dp"
-        android:layout_height="55dp"
-        app:srcCompat="@drawable/ellipse"
-        tools:layout_editor_absoluteX="46dp"
-        tools:layout_editor_absoluteY="404dp" />
-
-    <ImageView
-        android:id="@+id/imageView11"
-        android:layout_width="61dp"
-        android:layout_height="55dp"
-        app:srcCompat="@drawable/ellipse"
-        tools:layout_editor_absoluteX="46dp"
-        tools:layout_editor_absoluteY="471dp" />
-
-    <ImageView
-        android:id="@+id/imageView13"
-        android:layout_width="61dp"
-        android:layout_height="55dp"
-        app:srcCompat="@drawable/ellipse"
-        tools:layout_editor_absoluteX="46dp"
-        tools:layout_editor_absoluteY="544dp" />
-
     <TextView
         android:id="@+id/textView9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/robotobold"
-        android:text="Food Name"
+        android:text="Chitato"
         android:textColor="#000000"
         tools:layout_editor_absoluteX="118dp"
         tools:layout_editor_absoluteY="266dp" />
@@ -204,7 +159,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/robotobold"
-        android:text="Food Name"
+        android:text="French Fries"
         android:textColor="#000000"
         tools:layout_editor_absoluteX="116dp"
         tools:layout_editor_absoluteY="338dp" />
@@ -214,7 +169,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/robotobold"
-        android:text="Food Name"
+        android:text="Indomie Goreng"
         android:textColor="#000000"
         tools:layout_editor_absoluteX="116dp"
         tools:layout_editor_absoluteY="415dp" />
@@ -244,7 +199,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/robotobold"
-        android:text="Qty : _____ Pcs"
+        android:text="Qty : 2 Pcs"
         android:textColor="#040303"
         android:textSize="12sp"
         tools:layout_editor_absoluteX="118dp"
@@ -255,7 +210,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/robotobold"
-        android:text="Qty : _____ Pcs"
+        android:text="Qty : 2 Pcs"
         android:textColor="#040303"
         android:textSize="12sp"
         tools:layout_editor_absoluteX="116dp"
@@ -266,7 +221,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/robotobold"
-        android:text="Qty : _____ Pcs"
+        android:text="Qty : 10 Pcs"
         android:textColor="#040303"
         android:textSize="12sp"
         tools:layout_editor_absoluteX="118dp"
@@ -349,46 +304,6 @@
         tools:layout_editor_absoluteX="266dp"
         tools:layout_editor_absoluteY="547dp" />
 
-    <ImageView
-        android:id="@+id/imageView6"
-        android:layout_width="31dp"
-        android:layout_height="27dp"
-        app:srcCompat="@drawable/camera"
-        tools:layout_editor_absoluteX="62dp"
-        tools:layout_editor_absoluteY="266dp" />
-
-    <ImageView
-        android:id="@+id/imageView8"
-        android:layout_width="31dp"
-        android:layout_height="27dp"
-        app:srcCompat="@drawable/camera"
-        tools:layout_editor_absoluteX="62dp"
-        tools:layout_editor_absoluteY="342dp" />
-
-    <ImageView
-        android:id="@+id/imageView10"
-        android:layout_width="31dp"
-        android:layout_height="27dp"
-        app:srcCompat="@drawable/camera"
-        tools:layout_editor_absoluteX="62dp"
-        tools:layout_editor_absoluteY="415dp" />
-
-    <ImageView
-        android:id="@+id/imageView12"
-        android:layout_width="31dp"
-        android:layout_height="27dp"
-        app:srcCompat="@drawable/camera"
-        tools:layout_editor_absoluteX="62dp"
-        tools:layout_editor_absoluteY="480dp" />
-
-    <ImageView
-        android:id="@+id/imageView14"
-        android:layout_width="31dp"
-        android:layout_height="27dp"
-        app:srcCompat="@drawable/camera"
-        tools:layout_editor_absoluteX="62dp"
-        tools:layout_editor_absoluteY="555dp" />
-
     <TextView
         android:id="@+id/textView5"
         android:layout_width="wrap_content"
@@ -428,7 +343,7 @@
         android:textAlignment="center"
         android:textColor="#000000"
         tools:layout_editor_absoluteX="308dp"
-        tools:layout_editor_absoluteY="703dp" />
+        tools:layout_editor_absoluteY="707dp" />
 
     <TextView
         android:id="@+id/textView37"
@@ -443,8 +358,8 @@
 
     <ImageView
         android:id="@+id/imageView16"
-        android:layout_width="45dp"
-        android:layout_height="33dp"
+        android:layout_width="44dp"
+        android:layout_height="28dp"
         app:srcCompat="@drawable/add"
         tools:layout_editor_absoluteX="183dp"
         tools:layout_editor_absoluteY="673dp" />
@@ -456,5 +371,45 @@
         app:srcCompat="@drawable/list"
         tools:layout_editor_absoluteX="313dp"
         tools:layout_editor_absoluteY="673dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/photo"
+        tools:layout_editor_absoluteX="53dp"
+        tools:layout_editor_absoluteY="266dp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/photo"
+        tools:layout_editor_absoluteX="53dp"
+        tools:layout_editor_absoluteY="338dp" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/photo"
+        tools:layout_editor_absoluteX="53dp"
+        tools:layout_editor_absoluteY="553dp" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/photo"
+        tools:layout_editor_absoluteX="53dp"
+        tools:layout_editor_absoluteY="480dp" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/photo"
+        tools:layout_editor_absoluteX="53dp"
+        tools:layout_editor_absoluteY="413dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
