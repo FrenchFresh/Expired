@@ -21,7 +21,9 @@
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/signup"
         tools:layout_editor_absoluteX="92dp"
-        tools:layout_editor_absoluteY="455dp" />
+        tools:layout_editor_absoluteY="455dp"
+        android:onClick="goToLogin"
+        />
 
     <TextView
         android:id="@+id/textView3"
@@ -65,7 +67,9 @@
         android:backgroundTint="#00FFFFFF"
         app:srcCompat="@drawable/arrowback"
         tools:layout_editor_absoluteX="44dp"
-        tools:layout_editor_absoluteY="33dp" />
+        tools:layout_editor_absoluteY="33dp"
+        android:onClick="goToLogin"
+        />
 
     <TextView
         android:id="@+id/textView"
