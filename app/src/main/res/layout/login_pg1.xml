@@ -105,7 +105,7 @@
         app:srcCompat="@drawable/register"
         tools:layout_editor_absoluteX="248dp"
         tools:layout_editor_absoluteY="657dp"
-        android:onClick="goToRegisser"
+        android:onClick="goToRegister"
         />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

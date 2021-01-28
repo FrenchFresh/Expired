@@ -21,7 +21,7 @@ class LoginActivity : AppCompatActivity() {
         startActivity(statusIntent)
     }
 
-    fun goToRegisser(view: View) {
+    fun goToRegister(view: View) {
         val statusIntent = Intent(this, RegisterActivity::class.java)
         startActivity(statusIntent)
     }

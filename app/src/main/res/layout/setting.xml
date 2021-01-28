@@ -36,7 +36,9 @@
         android:layout_height="53dp"
         app:srcCompat="@drawable/arrowback"
         tools:layout_editor_absoluteX="35dp"
-        tools:layout_editor_absoluteY="31dp" />
+        tools:layout_editor_absoluteY="31dp"
+        android:onClick="goToHome"
+        />
 
     <ImageView
         android:id="@+id/imageView18"
@@ -196,6 +198,8 @@
         android:layout_height="49dp"
         app:srcCompat="@drawable/logout"
         tools:layout_editor_absoluteX="62dp"
-        tools:layout_editor_absoluteY="649dp" />
+        tools:layout_editor_absoluteY="649dp"
+        android:onClick="goToLogin"
+        />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
