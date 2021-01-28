@@ -12,7 +12,8 @@
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/close"
         tools:layout_editor_absoluteX="344dp"
-        tools:layout_editor_absoluteY="29dp" />
+        tools:layout_editor_absoluteY="29dp"
+        android:onClick="goToHome"/>
 
     <TextView
         android:id="@+id/textView54"
@@ -40,7 +41,8 @@
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/save"
         tools:layout_editor_absoluteX="90dp"
-        tools:layout_editor_absoluteY="658dp" />
+        tools:layout_editor_absoluteY="658dp"
+        android:onClick="goToHome"/>
 
     <TextView
         android:id="@+id/textView68"
@@ -94,7 +96,9 @@
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/plus"
         tools:layout_editor_absoluteX="218dp"
-        tools:layout_editor_absoluteY="379dp" />
+        tools:layout_editor_absoluteY="379dp"
+        android:onClick="addQuantity"
+        />
 
     <ImageView
         android:id="@+id/imageView53"
@@ -104,11 +108,11 @@
         tools:layout_editor_absoluteX="82dp"
         tools:layout_editor_absoluteY="372dp" />
 
-    <TextView
-        android:id="@+id/textView67"
+    <EditText
+        android:id="@+id/inputQuantity2"
         android:layout_width="25dp"
         android:layout_height="28dp"
-        android:text="2"
+        android:text="0"
         android:textAlignment="center"
         android:textSize="18sp"
         tools:layout_editor_absoluteX="124dp"
@@ -120,7 +124,8 @@
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/min"
         tools:layout_editor_absoluteX="40dp"
-        tools:layout_editor_absoluteY="379dp" />
+        tools:layout_editor_absoluteY="379dp"
+        android:onClick="minusQuantity"/>
 
     <ImageView
         android:id="@+id/imageView51"

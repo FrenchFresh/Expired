@@ -29,7 +29,9 @@
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/list"
         tools:layout_editor_absoluteX="313dp"
-        tools:layout_editor_absoluteY="673dp" />
+        tools:layout_editor_absoluteY="673dp"
+        android:onClick="goToList"
+        />
 
     <TextView
         android:id="@+id/textView63"
@@ -40,7 +42,9 @@
         android:textAlignment="center"
         android:textColor="#000000"
         tools:layout_editor_absoluteX="309dp"
-        tools:layout_editor_absoluteY="706dp" />
+        tools:layout_editor_absoluteY="706dp"
+        android:onClick="goToList"
+        />
 
     <ImageView
         android:id="@+id/imageView72"
@@ -48,7 +52,9 @@
         android:layout_height="29dp"
         app:srcCompat="@drawable/add"
         tools:layout_editor_absoluteX="183dp"
-        tools:layout_editor_absoluteY="673dp" />
+        tools:layout_editor_absoluteY="673dp"
+        android:onClick="goToAddItem"
+        />
 
     <TextView
         android:id="@+id/textView61"
@@ -59,7 +65,9 @@
         android:textAlignment="center"
         android:textColor="#000000"
         tools:layout_editor_absoluteX="165dp"
-        tools:layout_editor_absoluteY="706dp" />
+        tools:layout_editor_absoluteY="706dp"
+        android:onClick="goToAddItem"
+        />
 
     <ImageView
         android:id="@+id/imageView71"
@@ -67,7 +75,9 @@
         android:layout_height="33dp"
         app:srcCompat="@drawable/homes"
         tools:layout_editor_absoluteX="62dp"
-        tools:layout_editor_absoluteY="673dp" />
+        tools:layout_editor_absoluteY="673dp"
+        android:onClick="goToHome"
+        />
 
     <TextView
         android:id="@+id/textView30"
@@ -78,7 +88,9 @@
         android:textAlignment="center"
         android:textColor="#000000"
         tools:layout_editor_absoluteX="62dp"
-        tools:layout_editor_absoluteY="706dp" />
+        tools:layout_editor_absoluteY="706dp"
+        android:onClick="goToHome"
+        />
 
     <ImageView
         android:id="@+id/imageView48"
@@ -90,11 +102,12 @@
 
     <TextView
         android:id="@+id/textView60"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="89dp"
+        android:layout_height="31dp"
         android:fontFamily="@font/robotobold"
         android:text="Chitato"
         android:textColor="#000000"
+        android:textSize="24sp"
         tools:layout_editor_absoluteX="50dp"
         tools:layout_editor_absoluteY="59dp" />
 
@@ -195,7 +208,9 @@
         android:layout_height="34dp"
         app:srcCompat="@drawable/edit"
         tools:layout_editor_absoluteX="272dp"
-        tools:layout_editor_absoluteY="217dp" />
+        tools:layout_editor_absoluteY="217dp"
+        android:onClick="gotoEdit"
+        />
 
     <ImageView
         android:id="@+id/imageView66"
@@ -243,7 +258,9 @@
         android:layout_height="34dp"
         app:srcCompat="@drawable/edit"
         tools:layout_editor_absoluteX="272dp"
-        tools:layout_editor_absoluteY="285dp" />
+        tools:layout_editor_absoluteY="285dp"
+        android:onClick="gotoEdit"
+        />
 
     <ImageView
         android:id="@+id/imageView77"
@@ -331,7 +348,9 @@
         android:layout_height="34dp"
         app:srcCompat="@drawable/edit"
         tools:layout_editor_absoluteX="272dp"
-        tools:layout_editor_absoluteY="355dp" />
+        tools:layout_editor_absoluteY="355dp"
+        android:onClick="gotoEdit"
+        />
 
     <ImageView
         android:id="@+id/imageView84"
@@ -339,7 +358,9 @@
         android:layout_height="34dp"
         app:srcCompat="@drawable/edit"
         tools:layout_editor_absoluteX="272dp"
-        tools:layout_editor_absoluteY="428dp" />
+        tools:layout_editor_absoluteY="428dp"
+        android:onClick="gotoEdit"
+        />
 
     <ImageView
         android:id="@+id/imageView86"
@@ -355,7 +376,9 @@
         android:layout_height="34dp"
         app:srcCompat="@drawable/edit"
         tools:layout_editor_absoluteX="272dp"
-        tools:layout_editor_absoluteY="575dp" />
+        tools:layout_editor_absoluteY="575dp"
+        android:onClick="gotoEdit"
+        />
 
     <TextView
         android:id="@+id/textView75"

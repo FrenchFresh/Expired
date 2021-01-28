@@ -161,14 +161,6 @@
         tools:layout_editor_absoluteY="379dp" />
 
     <ImageView
-        android:id="@+id/imageView20"
-        android:layout_width="40dp"
-        android:layout_height="35dp"
-        app:srcCompat="@drawable/edit"
-        tools:layout_editor_absoluteX="319dp"
-        tools:layout_editor_absoluteY="203dp" />
-
-    <ImageView
         android:id="@+id/imageView24"
         android:layout_width="40dp"
         android:layout_height="34dp"
@@ -190,7 +182,8 @@
         android:layout_height="49dp"
         app:srcCompat="@drawable/save"
         tools:layout_editor_absoluteX="62dp"
-        tools:layout_editor_absoluteY="600dp" />
+        tools:layout_editor_absoluteY="600dp"
+        android:onClick="goToHome"/>
 
     <ImageView
         android:id="@+id/imageView27"
