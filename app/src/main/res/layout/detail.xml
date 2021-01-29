@@ -178,7 +178,13 @@
         android:id="@+id/imageView34"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-<<<<<<< HEAD
+<<<<<
+
+        tools:layout_editor_absoluteX="193dp"
+        android:layout_width="4dp"
+        android:layout_height="12dp"<
+        tools:layout_editor_absoluteY="553dp"="159dp"
+        tools:layout_editor_absoluteX="99dp" />< HEAD
         app:srcCompat="@drawable/close"
         tools:layout_editor_absoluteX="344dp"
         tools:layout_editor_absoluteY="29dp"
