@@ -41,7 +41,9 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.971"
-        app:srcCompat="@drawable/list" />
+        app:srcCompat="@drawable/list"
+        android:onClick="goToList"
+        />
 
     <TextView
         android:id="@+id/textView63"
@@ -56,7 +58,9 @@
         app:layout_constraintHorizontal_bias="0.804"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.988" />
+        app:layout_constraintVertical_bias="0.988"
+        android:onClick="goToList"
+        />
 
     <ImageView
         android:id="@+id/imageView72"
@@ -68,7 +72,9 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.966"
-        app:srcCompat="@drawable/add" />
+        app:srcCompat="@drawable/add"
+        android:onClick="goToAddItem"
+        />
 
     <TextView
         android:id="@+id/textView61"
@@ -82,7 +88,9 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.991" />
+        app:layout_constraintVertical_bias="0.991"
+        android:onClick="goToAddItem"
+        />
 
     <ImageView
         android:id="@+id/imageView71"
@@ -94,7 +102,9 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.959"
-        app:srcCompat="@drawable/homes" />
+        app:srcCompat="@drawable/homes"
+        android:onClick="goToHome"
+        />
 
     <TextView
         android:id="@+id/textView30"
@@ -109,7 +119,8 @@
         app:layout_constraintHorizontal_bias="0.17"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.99" />
+        app:layout_constraintVertical_bias="0.99"
+        android:onClick="goToHome"/>
 
     <ImageView
         android:id="@+id/imageView48"
@@ -183,7 +194,9 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.315"
-        app:srcCompat="@drawable/r" />
+        app:srcCompat="@drawable/r"
+        android:onClick="goToDetail"
+        />
 
     <ImageView
         android:id="@+id/imageView63"
@@ -263,7 +276,9 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.316"
-        app:srcCompat="@drawable/edit" />
+        app:srcCompat="@drawable/edit"
+        android:onClick="goToEdit"
+        />
 
     <ImageView
         android:id="@+id/imageView66"
@@ -276,7 +291,9 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.404"
-        app:srcCompat="@drawable/r" />
+        app:srcCompat="@drawable/r"
+        android:onClick="goToDetail"
+        />
 
     <TextView
         android:id="@+id/textView71"
@@ -332,7 +349,9 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.408"
-        app:srcCompat="@drawable/edit" />
+        app:srcCompat="@drawable/edit"
+        android:onClick="goToEdit"
+        />
 
     <ImageView
         android:id="@+id/imageView77"
@@ -368,7 +387,9 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.726"
-        app:srcCompat="@drawable/r" />
+        app:srcCompat="@drawable/r"
+        android:onClick="goToDetail"
+        />
 
     <ImageView
         android:id="@+id/imageView70"
@@ -380,7 +401,9 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.839"
-        app:srcCompat="@drawable/r" />
+        app:srcCompat="@drawable/r"
+        android:onClick="goToDetail"
+        />
 
     <ImageView
         android:id="@+id/imageView68"
@@ -392,7 +415,9 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.622"
-        app:srcCompat="@drawable/r" />
+        app:srcCompat="@drawable/r"
+        android:onClick="goToDetail"
+        />
 
     <ImageView
         android:id="@+id/imageView69"
@@ -404,7 +429,9 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.519"
-        app:srcCompat="@drawable/r" />
+        app:srcCompat="@drawable/r"
+        android:onClick="goToDetail"
+        />
 
     <ImageView
         android:id="@+id/imageView80"
@@ -464,7 +491,9 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.51"
-        app:srcCompat="@drawable/edit" />
+        app:srcCompat="@drawable/edit"
+        android:onClick="goToEdit"
+        />
 
     <ImageView
         android:id="@+id/imageView84"
@@ -476,7 +505,9 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.619"
-        app:srcCompat="@drawable/edit" />
+        app:srcCompat="@drawable/edit"
+        android:onClick="goToEdit"
+        />
 
     <ImageView
         android:id="@+id/imageView86"
@@ -488,7 +519,9 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.711"
-        app:srcCompat="@drawable/edit" />
+        app:srcCompat="@drawable/edit"
+        android:onClick="goToEdit"
+        />
 
     <ImageView
         android:id="@+id/imageView88"
@@ -500,7 +533,9 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.832"
-        app:srcCompat="@drawable/edit" />
+        app:srcCompat="@drawable/edit"
+        android:onClick="goToEdit"
+        />
 
     <TextView
         android:id="@+id/textView75"
