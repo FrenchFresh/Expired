@@ -35,21 +35,15 @@
         android:id="@+id/imageView73"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-<<<<<<< HEAD
-        app:srcCompat="@drawable/list"
-        tools:layout_editor_absoluteX="313dp"
-        tools:layout_editor_absoluteY="673dp"
-        android:onClick="goToList"
-        />
-=======
         app:layout_constraintBottom_toBottomOf="@+id/imageView47"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.792"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.971"
-        app:srcCompat="@drawable/list" />
->>>>>>> 52ccafb0fd03498ee5956d672b9c4b9f50565f48
+        app:srcCompat="@drawable/list"
+        android:onClick="goToList"
+        />
 
     <TextView
         android:id="@+id/textView63"
@@ -59,39 +53,28 @@
         android:text="List"
         android:textAlignment="center"
         android:textColor="#000000"
-<<<<<<< HEAD
-        tools:layout_editor_absoluteX="309dp"
-        tools:layout_editor_absoluteY="706dp"
-        android:onClick="goToList"
-        />
-=======
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.804"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.988" />
->>>>>>> 52ccafb0fd03498ee5956d672b9c4b9f50565f48
+        app:layout_constraintVertical_bias="0.988"
+        android:onClick="goToList"
+        />
 
     <ImageView
         android:id="@+id/imageView72"
         android:layout_width="44dp"
         android:layout_height="29dp"
-<<<<<<< HEAD
-        app:srcCompat="@drawable/add"
-        tools:layout_editor_absoluteX="183dp"
-        tools:layout_editor_absoluteY="673dp"
-        android:onClick="goToAddItem"
-        />
-=======
         app:layout_constraintBottom_toBottomOf="@+id/imageView47"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.966"
-        app:srcCompat="@drawable/add" />
->>>>>>> 52ccafb0fd03498ee5956d672b9c4b9f50565f48
+        app:srcCompat="@drawable/add"
+        android:onClick="goToAddItem"
+        />
 
     <TextView
         android:id="@+id/textView61"
@@ -101,38 +84,27 @@
         android:text="Add Items"
         android:textAlignment="center"
         android:textColor="#000000"
-<<<<<<< HEAD
-        tools:layout_editor_absoluteX="165dp"
-        tools:layout_editor_absoluteY="706dp"
-        android:onClick="goToAddItem"
-        />
-=======
         app:layout_constraintBottom_toBottomOf="@+id/textView25"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.991" />
->>>>>>> 52ccafb0fd03498ee5956d672b9c4b9f50565f48
+        app:layout_constraintVertical_bias="0.991"
+        android:onClick="goToAddItem"
+        />
 
     <ImageView
         android:id="@+id/imageView71"
         android:layout_width="47dp"
         android:layout_height="33dp"
-<<<<<<< HEAD
-        app:srcCompat="@drawable/homes"
-        tools:layout_editor_absoluteX="62dp"
-        tools:layout_editor_absoluteY="673dp"
-        android:onClick="goToHome"
-        />
-=======
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.17"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.959"
-        app:srcCompat="@drawable/homes" />
->>>>>>> 52ccafb0fd03498ee5956d672b9c4b9f50565f48
+        app:srcCompat="@drawable/homes"
+        android:onClick="goToHome"
+        />
 
     <TextView
         android:id="@+id/textView30"
@@ -142,19 +114,13 @@
         android:text="Home"
         android:textAlignment="center"
         android:textColor="#000000"
-<<<<<<< HEAD
-        tools:layout_editor_absoluteX="62dp"
-        tools:layout_editor_absoluteY="706dp"
-        android:onClick="goToHome"
-        />
-=======
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.17"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.99" />
->>>>>>> 52ccafb0fd03498ee5956d672b9c4b9f50565f48
+        app:layout_constraintVertical_bias="0.99"
+        android:onClick="goToHome"/>
 
     <ImageView
         android:id="@+id/imageView48"
@@ -170,23 +136,17 @@
 
     <TextView
         android:id="@+id/textView60"
-        android:layout_width="89dp"
-        android:layout_height="31dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:fontFamily="@font/robotobold"
         android:text="Chitato"
         android:textColor="#000000"
-<<<<<<< HEAD
-        android:textSize="24sp"
-        tools:layout_editor_absoluteX="50dp"
-        tools:layout_editor_absoluteY="59dp" />
-=======
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.131"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.096" />
->>>>>>> 52ccafb0fd03498ee5956d672b9c4b9f50565f48
 
     <ImageView
         android:id="@+id/imageView59"
@@ -221,7 +181,7 @@
         app:layout_constraintHorizontal_bias="0.131"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintVertical_bias="0.167"
         app:srcCompat="@drawable/sbd" />
 
     <ImageView
@@ -234,7 +194,9 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.315"
-        app:srcCompat="@drawable/r" />
+        app:srcCompat="@drawable/r"
+        android:onClick="goToDetail"
+        />
 
     <ImageView
         android:id="@+id/imageView63"
@@ -273,10 +235,10 @@
         android:textSize="12sp"
         app:layout_constraintBottom_toBottomOf="@+id/textView61"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.309"
+        app:layout_constraintHorizontal_bias="0.335"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="0.343" />
 
     <TextView
         android:id="@+id/textView15"
@@ -308,21 +270,15 @@
         android:id="@+id/imageView64"
         android:layout_width="30dp"
         android:layout_height="34dp"
-<<<<<<< HEAD
-        app:srcCompat="@drawable/edit"
-        tools:layout_editor_absoluteX="272dp"
-        tools:layout_editor_absoluteY="217dp"
-        android:onClick="gotoEdit"
-        />
-=======
         app:layout_constraintBottom_toBottomOf="@+id/textView61"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.713"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.316"
-        app:srcCompat="@drawable/edit" />
->>>>>>> 52ccafb0fd03498ee5956d672b9c4b9f50565f48
+        app:srcCompat="@drawable/edit"
+        android:onClick="goToEdit"
+        />
 
     <ImageView
         android:id="@+id/imageView66"
@@ -335,7 +291,9 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.404"
-        app:srcCompat="@drawable/r" />
+        app:srcCompat="@drawable/r"
+        android:onClick="goToDetail"
+        />
 
     <TextView
         android:id="@+id/textView71"
@@ -385,21 +343,15 @@
         android:id="@+id/imageView76"
         android:layout_width="30dp"
         android:layout_height="34dp"
-<<<<<<< HEAD
-        app:srcCompat="@drawable/edit"
-        tools:layout_editor_absoluteX="272dp"
-        tools:layout_editor_absoluteY="285dp"
-        android:onClick="gotoEdit"
-        />
-=======
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.713"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.408"
-        app:srcCompat="@drawable/edit" />
->>>>>>> 52ccafb0fd03498ee5956d672b9c4b9f50565f48
+        app:srcCompat="@drawable/edit"
+        android:onClick="goToEdit"
+        />
 
     <ImageView
         android:id="@+id/imageView77"
@@ -435,7 +387,9 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.726"
-        app:srcCompat="@drawable/r" />
+        app:srcCompat="@drawable/r"
+        android:onClick="goToDetail"
+        />
 
     <ImageView
         android:id="@+id/imageView70"
@@ -447,7 +401,9 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.839"
-        app:srcCompat="@drawable/r" />
+        app:srcCompat="@drawable/r"
+        android:onClick="goToDetail"
+        />
 
     <ImageView
         android:id="@+id/imageView68"
@@ -459,7 +415,9 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.622"
-        app:srcCompat="@drawable/r" />
+        app:srcCompat="@drawable/r"
+        android:onClick="goToDetail"
+        />
 
     <ImageView
         android:id="@+id/imageView69"
@@ -471,7 +429,9 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.519"
-        app:srcCompat="@drawable/r" />
+        app:srcCompat="@drawable/r"
+        android:onClick="goToDetail"
+        />
 
     <ImageView
         android:id="@+id/imageView80"
@@ -525,41 +485,29 @@
         android:id="@+id/imageView79"
         android:layout_width="30dp"
         android:layout_height="34dp"
-<<<<<<< HEAD
-        app:srcCompat="@drawable/edit"
-        tools:layout_editor_absoluteX="272dp"
-        tools:layout_editor_absoluteY="355dp"
-        android:onClick="gotoEdit"
-        />
-=======
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.713"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.51"
-        app:srcCompat="@drawable/edit" />
->>>>>>> 52ccafb0fd03498ee5956d672b9c4b9f50565f48
+        app:srcCompat="@drawable/edit"
+        android:onClick="goToEdit"
+        />
 
     <ImageView
         android:id="@+id/imageView84"
         android:layout_width="30dp"
         android:layout_height="34dp"
-<<<<<<< HEAD
-        app:srcCompat="@drawable/edit"
-        tools:layout_editor_absoluteX="272dp"
-        tools:layout_editor_absoluteY="428dp"
-        android:onClick="gotoEdit"
-        />
-=======
         app:layout_constraintBottom_toBottomOf="@+id/imageView47"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.713"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.619"
-        app:srcCompat="@drawable/edit" />
->>>>>>> 52ccafb0fd03498ee5956d672b9c4b9f50565f48
+        app:srcCompat="@drawable/edit"
+        android:onClick="goToEdit"
+        />
 
     <ImageView
         android:id="@+id/imageView86"
@@ -571,27 +519,23 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.711"
-        app:srcCompat="@drawable/edit" />
+        app:srcCompat="@drawable/edit"
+        android:onClick="goToEdit"
+        />
 
     <ImageView
         android:id="@+id/imageView88"
         android:layout_width="30dp"
         android:layout_height="34dp"
-<<<<<<< HEAD
-        app:srcCompat="@drawable/edit"
-        tools:layout_editor_absoluteX="272dp"
-        tools:layout_editor_absoluteY="575dp"
-        android:onClick="gotoEdit"
-        />
-=======
         app:layout_constraintBottom_toBottomOf="@+id/imageView47"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.713"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.832"
-        app:srcCompat="@drawable/edit" />
->>>>>>> 52ccafb0fd03498ee5956d672b9c4b9f50565f48
+        app:srcCompat="@drawable/edit"
+        android:onClick="goToEdit"
+        />
 
     <TextView
         android:id="@+id/textView75"

@@ -13,16 +13,14 @@ class NewItemActivity : AppCompatActivity() {
         setContentView(R.layout.newitems)
     }
 
-    fun goToHome(view: View) {
-        val statusIntent = Intent(this, HomeActivity::class.java)
-        startActivity(statusIntent)
-    }
-
     fun addQuantity(view: View) {
         quantity++
         inputQuantity.setText(quantity)
     }
-
+    fun goToHome(view: View) {
+        val statusIntent = Intent(this, HomeActivity::class.java)
+        startActivity(statusIntent)
+    }
     fun minusQuantity(view: View) {
         quantity--
         inputQuantity.setText(quantity)

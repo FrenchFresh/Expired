@@ -10,20 +10,15 @@
         android:id="@+id/imageView38"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-<<<<<<< HEAD
-        app:srcCompat="@drawable/close"
-        tools:layout_editor_absoluteX="344dp"
-        tools:layout_editor_absoluteY="29dp"
-        android:onClick="goToHome"/>
-=======
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.956"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.041"
-        app:srcCompat="@drawable/close" />
->>>>>>> 52ccafb0fd03498ee5956d672b9c4b9f50565f48
+        app:srcCompat="@drawable/close"
+        android:onClick="goToList"
+        />
 
     <TextView
         android:id="@+id/textView54"
@@ -57,20 +52,15 @@
         android:id="@+id/imageView58"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-<<<<<<< HEAD
-        app:srcCompat="@drawable/save"
-        tools:layout_editor_absoluteX="90dp"
-        tools:layout_editor_absoluteY="658dp"
-        android:onClick="goToHome"/>
-=======
         app:layout_constraintBottom_toBottomOf="@+id/imageView37"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.445"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.965"
-        app:srcCompat="@drawable/save" />
->>>>>>> 52ccafb0fd03498ee5956d672b9c4b9f50565f48
+        app:srcCompat="@drawable/save"
+        android:onClick="goToList"
+        />
 
     <TextView
         android:id="@+id/textView68"
@@ -142,21 +132,15 @@
         android:id="@+id/imageView54"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-<<<<<<< HEAD
-        app:srcCompat="@drawable/plus"
-        tools:layout_editor_absoluteX="218dp"
-        tools:layout_editor_absoluteY="379dp"
-        android:onClick="addQuantity"
-        />
-=======
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.532"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.53"
-        app:srcCompat="@drawable/plus" />
->>>>>>> 52ccafb0fd03498ee5956d672b9c4b9f50565f48
+        app:srcCompat="@drawable/plus"
+        android:onClick="addQuantity"
+        />
 
     <ImageView
         android:id="@+id/imageView53"
@@ -179,29 +163,24 @@
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.3"
+        app:layout_constraintHorizontal_bias="0.321"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.539" />
+        app:layout_constraintVertical_bias="0.533" />
 
     <ImageView
         android:id="@+id/imageView52"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-<<<<<<< HEAD
-        app:srcCompat="@drawable/min"
-        tools:layout_editor_absoluteX="40dp"
-        tools:layout_editor_absoluteY="379dp"
-        android:onClick="minusQuantity"/>
-=======
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.095"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.53"
-        app:srcCompat="@drawable/min" />
->>>>>>> 52ccafb0fd03498ee5956d672b9c4b9f50565f48
+        app:srcCompat="@drawable/min"
+        android:onClick="minusQuantity"
+        />
 
     <ImageView
         android:id="@+id/imageView51"

@@ -15,16 +15,21 @@ class ListActivity : AppCompatActivity() {
         val statusIntent = Intent(this, HomeActivity::class.java)
         startActivity(statusIntent)
     }
-    fun goToList(view: View) {
-        val statusIntent = Intent(this, ListActivity::class.java)
-        startActivity(statusIntent)
-    }
     fun goToAddItem(view: View) {
         val statusIntent = Intent(this, NewItemActivity::class.java)
         startActivity(statusIntent)
     }
-    fun gotoEdit(view: View) {
+    fun goToEdit(view: View) {
         val statusIntent = Intent(this, EditItemActivity::class.java)
+        startActivity(statusIntent)
+    }
+    fun goToDetail(view: View) {
+        val statusIntent = Intent(this, DetailActivity::class.java)
+        startActivity(statusIntent)
+    }
+
+    fun goToList(view: View) {
+        val statusIntent = Intent(this, ListActivity::class.java)
         startActivity(statusIntent)
     }
 }

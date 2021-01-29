@@ -178,27 +178,15 @@
         android:id="@+id/imageView34"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-<<<<<
-
-        tools:layout_editor_absoluteX="193dp"
-        android:layout_width="4dp"
-        android:layout_height="12dp"<
-        tools:layout_editor_absoluteY="553dp"="159dp"
-        tools:layout_editor_absoluteX="99dp" />< HEAD
-        app:srcCompat="@drawable/close"
-        tools:layout_editor_absoluteX="344dp"
-        tools:layout_editor_absoluteY="29dp"
-        android:onClick="goToHome"
-        />
-=======
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.897"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.041"
-        app:srcCompat="@drawable/close" />
->>>>>>> 52ccafb0fd03498ee5956d672b9c4b9f50565f48
+        app:srcCompat="@drawable/close"
+        android:onClick="goToList"
+        />
 
     <TextView
         android:id="@+id/textView48"

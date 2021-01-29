@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import kotlinx.android.synthetic.main.edititems.*
 
 class DetailActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -11,8 +12,8 @@ class DetailActivity : AppCompatActivity() {
         setContentView(R.layout.detail)
     }
 
-    fun goToHome(view: View) {
-        val statusIntent = Intent(this, HomeActivity::class.java)
+    fun goToList(view: View) {
+        val statusIntent = Intent(this, ListActivity::class.java)
         startActivity(statusIntent)
     }
 }

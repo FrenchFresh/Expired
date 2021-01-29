@@ -20,7 +20,8 @@
         app:layout_constraintHorizontal_bias="0.312"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.057" />
+        app:layout_constraintVertical_bias="0.057"
+        />
 
     <ImageView
         android:id="@+id/imageView4"
@@ -203,52 +204,18 @@
         app:srcCompat="@drawable/line" />
 
     <ImageView
-<<<<<<< HEAD
-        android:id="@+id/imageView24"
-        android:layout_width="40dp"
-        android:layout_height="34dp"
-        app:srcCompat="@drawable/checked"
-        tools:layout_editor_absoluteX="138dp"
-        tools:layout_editor_absoluteY="510dp" />
-
-    <ImageView
-        android:id="@+id/imageView25"
-        android:layout_width="40dp"
-        android:layout_height="39dp"
-        app:srcCompat="@drawable/unchecked"
-        tools:layout_editor_absoluteX="138dp"
-        tools:layout_editor_absoluteY="544dp" />
-=======
-        android:id="@+id/imageView20"
-        android:layout_width="40dp"
-        android:layout_height="35dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.83"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.293"
-        app:srcCompat="@drawable/edit" />
->>>>>>> 52ccafb0fd03498ee5956d672b9c4b9f50565f48
-
-    <ImageView
         android:id="@+id/imageView26"
         android:layout_width="286dp"
         android:layout_height="49dp"
-<<<<<<< HEAD
-        app:srcCompat="@drawable/save"
-        tools:layout_editor_absoluteX="62dp"
-        tools:layout_editor_absoluteY="600dp"
-        android:onClick="goToHome"/>
-=======
         app:layout_constraintBottom_toBottomOf="@+id/imageView18"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.859"
-        app:srcCompat="@drawable/save" />
->>>>>>> 52ccafb0fd03498ee5956d672b9c4b9f50565f48
+        app:srcCompat="@drawable/save"
+        android:onClick="goToHome"
+        />
 
     <ImageView
         android:id="@+id/imageView27"
@@ -261,7 +228,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.948"
-        app:srcCompat="@drawable/logout" />
+        app:srcCompat="@drawable/logout"
+        />
 
     <CheckBox
         android:id="@+id/checkBox"

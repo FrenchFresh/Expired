@@ -14,17 +14,16 @@ class EditItemActivity : AppCompatActivity() {
         setContentView(R.layout.edititems)
     }
 
-    fun minusQuantity(view: View) {
-        quantity++
-        inputQuantity2.setText(quantity)
+    fun goToList(view: View) {
+        val statusIntent = Intent(this, ListActivity::class.java)
+        startActivity(statusIntent)
     }
     fun addQuantity(view: View) {
         quantity++
         inputQuantity2.setText(quantity)
     }
-
-    fun goToHome(view: View) {
-        val statusIntent = Intent(this, HomeActivity::class.java)
-        startActivity(statusIntent)
+    fun minusQuantity(view: View) {
+        quantity--
+        inputQuantity2.setText(quantity)
     }
 }
