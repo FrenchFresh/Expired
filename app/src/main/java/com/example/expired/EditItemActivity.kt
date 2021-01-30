@@ -20,10 +20,10 @@ class EditItemActivity : AppCompatActivity() {
     }
     fun addQuantity(view: View) {
         quantity++
-        inputQuantity2.setText(quantity)
+        inputQuantity2.setText(quantity.toString())
     }
     fun minusQuantity(view: View) {
         quantity--
-        inputQuantity2.setText(quantity)
+        inputQuantity2.setText(quantity.toString())
     }
 }

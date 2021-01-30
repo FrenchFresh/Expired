@@ -15,7 +15,7 @@ class NewItemActivity : AppCompatActivity() {
 
     fun addQuantity(view: View) {
         quantity++
-        inputQuantity.setText(quantity)
+        inputQuantity.setText(quantity.toString())
     }
     fun goToHome(view: View) {
         val statusIntent = Intent(this, HomeActivity::class.java)
@@ -23,6 +23,6 @@ class NewItemActivity : AppCompatActivity() {
     }
     fun minusQuantity(view: View) {
         quantity--
-        inputQuantity.setText(quantity)
+        inputQuantity.setText(quantity.toString())
     }
 }
